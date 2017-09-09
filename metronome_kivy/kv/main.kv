@@ -1,0 +1,19 @@
+#:import Roulette kivy.garden.roulette
+
+<Container>
+	GridLayout:
+		cols: 3
+
+		Button:
+			size_hint_x: .25
+			text: 'Play'
+		Roulette:		
+			size_hint_x: .5
+			density: 10
+			selected_value: 60
+		Button:
+			size_hint_x: .25
+			text: 'Stop'
+
+
+	
